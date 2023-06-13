@@ -1,0 +1,163 @@
+header {
+  background-color: rgb(240, 169, 88);
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: rgb(252, 209, 109, 01);
+  margin: 0px;
+  padding: 0x;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.logo{
+  width:200px;
+}
+
+.nav {
+  align-self: flex-end;
+  font-size:100px;
+
+}
+
+.color-link {
+  background-color: white;
+  margin-right: 15px;
+  padding: 10px;
+  position:relative;
+  border-radius: 8px;
+  color: orangered;
+  font-size:20px;
+  justify-content: space-around;
+  text-decoration: none;
+  flex-wrap: wrap;
+  
+}
+  
+
+
+.main-top {
+  background-image: url("./img/resultats/girl-12-V1.webp");
+ background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+  width: 100%;
+
+}
+
+
+.h1 {
+  background-color: white;
+  border-radius: 30px;
+  color: orangered;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
+  margin:20px;
+  font-size: 3em;
+  
+}
+
+.main-middle-1 {
+  padding: 0px;
+  margin:0px;
+}
+
+.title-main-middle {
+  color: orangered;
+  background-color: white;
+  position: absolute;
+  bottom: -35px;
+  right: 70px;
+  border-radius: 30px;
+  font-size: 1,5em;
+  padding:20px;
+  margin: 20px;
+  z-index: 1;
+  justify-content: center;
+
+}
+
+.image-container {
+
+  position:relative;
+}
+
+.image-1 {
+  width: 100%;
+}
+
+
+.texte{
+  background-color: rgb(240, 169, 88);
+  font-size: 20px;
+  position:relative;
+  top:-20px;
+
+  
+}
+
+
+.p1{
+padding:35px;
+font-size:16px;
+margin:0px;
+}
+
+
+
+.container-footer{
+    text-align:center;
+    align-items:center;
+    padding-bottom:10px;
+    color:black
+    
+}
+
+.footer-link1{
+    text-decoration: none;
+    list-style-type:none;
+}
+
+
+.footer-link2{
+    list-style-type:none;
+}
+
+
+.grid-list{
+display:flex;
+justify-content:center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.main-middle{
+margin:0px;
+padding:0px;
+padding:20px;
+
+
+}
+
+@media screen and (max-width:600px){
+  body {
+    font-size:14px; /*Taille de police réduite pour les écrans de 600px de largeur ou moins */
+  }
+
+  h1 {
+    font-size:1em;}
+
+ p{
+  font-size:14px;
+}
+
+color-link{
+
+  font-size:10px;
+}
+}
