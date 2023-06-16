@@ -160,8 +160,6 @@ padding:20px;
 
 .container-header{
 background-image:url("./img/resultats/mail-5-V1.webp");
-
-
 }
 
 
@@ -215,6 +213,11 @@ color:rgb(148, 76, 76);
 text-decoration:underline;
 }
 
+.main{
+  display:flex;
+
+}
+
 .container-form{
   display:flex;
   flex-direction:column;
@@ -223,7 +226,10 @@ text-decoration:underline;
   flex-wrap:wrap;
   align-content:stretch;
   background-color: white;
+  flex-basis: 50%;
 }
+
+
 .form{
   color:rgb(184, 55, 9);
 
@@ -232,23 +238,29 @@ text-decoration:underline;
 .form-button{
   color:black;
   background-color:orangered;
+  border-radius:10 px;
+  padding:8px;
+  font-size: 16;
+  
 
 }
 
 .form-groupe{
-  color:orangered;
-  display:flex;
+  color:black;
+   align-items:left;
+  flex-basis;
+
 }
 
 .form-groupe label{
 display:flex;
 flex-wrap:wrap;
-align-items:center;
+align-items:left;
 justify-content:center;
 width:40px;
 height:40px;
 border-radius:10px;
-background-color:blue;
+background-color:rgb(221, 149, 81);
 margin-right:10px;
 cursor:pointer;
 
