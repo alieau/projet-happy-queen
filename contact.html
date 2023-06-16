@@ -31,26 +31,53 @@
       <h1 class="h1">Contactez-nous</h1>
     </div>
 
-    <section class="main-contact">
-      <article>
-        <div class="checkbox-container">
-          <input type="checkbox" id="option1">
-          <label for="option1">Option 1</label>
     
-          <input type="checkbox" id="option2">
-          <label for="option2">Option 2</label>
-    
-          <input type="checkbox" id="option3">
-          <label for="option3">Option 3</label>
-        </div>
+ 
 
 
-      </article>
+  <div class="container-form">
+ <form method ="POST" action="mail.php" class="form">
+
+    <label for="prenom">Prénom</label>
+    <input type="text" name="prénom" placeholder="Entrez votre prénom" id="prénom">
 
 
+    <label for="nom">NOM</label>
+    <input type="text" name="nom" placeholder="Entrez votre nom" id="nom">
+
+    <label for="email">Email</label>
+    <input type="text" name="mail" placeholder="Entrez votre mail" id="email">
+
+    <label for="menu_deroulant">Vous êtes<select>
+      <option value="Un homme">Un homme</option>
+      <option value="Une femme">Une femme</option>
+    </select>
+    </label>
+
+    <div class="form-groupe">
+
+      <label>
+        <input type="radio" name="choice" value="reseausocial"><pan> Réseaux sociaux</span>
+      </label>
+      <label>
+        <input type="radio" name="choice" value="internet"><pan> Internet</span>
+      </label>
+      <label>
+        <input type="radio" name="choice" value="conseil"><pan> Conseils d'une connaissance</span>
+      </label>
+  
+    </div>
+
+    <input type="submit"  value="Envoyer" class="form-button">
 
 
-    </section>
+ </form>
+
+
+</div>
+
+
+</form>
 
 
   </main>
