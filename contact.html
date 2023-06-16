@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    
+
   <header>
     <img src="./img//resultats/logo-V1.2_Dossier 0/logo-V1.2.svg"
       alt="une plume colorée qui représente le logo de happy queen" class="logo" />
@@ -28,59 +28,58 @@
 
 
 
-  <main class="main">
-    <div class="container-header">
-      <h1 class="h1">Contactez-nous</h1>
-    </div>
 
-  
-  <div class="container-form">
-    <form method ="POST" action="mail.php" class="form">
+  <div class="contact-title">
+    <h1 class="h1">Contactez nous</h1>
+  </div>
 
-    <label for="prenom">Prénom</label>
-    <input type="text" name="prénom" placeholder="Entrez votre prénom" id="prénom">
+  <form method="POST" action="mail.php">
 
+    <main class="main">
 
-    <label for="nom">NOM</label>
-    <input type="text" name="nom" placeholder="Entrez votre nom" id="nom">
+      <div class="space50">
+        <label for="prenom">Prénom:</label><br>
+        <input type="prenom" id="prenom" name="prenom" value="Votre prénom"><br>
+        <label for="name">Nom:</label><br>
+        <input type="text" id="name" name="name" value="Votre nom de famille">
+        <br>
+        <label for="mail"></label>Mail:</label><br>
+        <input type="text" id="mail" name="mail" value="Votre email">
+        <br><br>
 
-    <label for="email">Email</label>
-    <input type="text" name="mail" placeholder="Entrez votre mail" id="email">
+        <label for="titlle-scrolling-menu">Vous avez découvert notre marque par :</label>
+        <select name="scrolling-menu" id="scrolling-menu">
+          <option value="Réseaux sociaux">Les réseaux sociaux</option>
+          <option value="publicité">La publicité internet</option>
+          <option value="conseils">Sur conseils d'un proche</option>
+        </select>
 
-    <label for="menu_deroulant">Vous êtes<select>
-      <option value="Un homme">Un homme</option>
-      <option value="Une femme">Une femme</option>
-    </select>
-    </label>
+        <h2 class="h2">Vous êtes </h2>
+        <input type="checkbox" id="homme" name="homme" value="homme">
+        <label for="homme">un homme</label><br>
 
-    <div class="form-groupe">
+        <input type="checkbox" id="femme" name="femme" value="femme">
+        <label for="femme">une femme</label><br>
 
-      <label class="">
-        <input type="radio" name="choice" value="reseausocial"><pan> Réseaux sociaux</span>
-      </label>
-      <label>
-        <input type="radio" name="choice" value="internet"><pan> Internet</span>
-      </label>
-      <label>
-        <input type="radio" name="choice" value="conseil"><pan> Conseils d'une connaissance</span>
-      </label>
-  
-    </div>
+      </div>
 
-    <input type="submit"  value="Envoyer" class="form-button">
-
-
- </form>
-
-
-</div>
+      <div class="space50"><label for="date">Date de l'évenement</label>
+        <label for="date"></label><br>
+        <input type="date" id="date" name="date" value="Choisissez une date">
+        <br>
+        <label for="message"></label> Votre message</label><br>
+        <input type="text" id="message" name="message" value="Votre message ici ..."><br>
+        
 
 
-</form>
+    
+
+      </div>
 
 
-  </main>
-
+      <input type="submit" value="ENVOYER MA DEMANDE" class="form-button">
+    </main>
+  </form>
 
   <footer>
 
@@ -100,4 +99,3 @@
 </body>
 
 </html>
-
