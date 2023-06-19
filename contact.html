@@ -38,43 +38,54 @@
     <main class="main">
 
       <div class="space50">
-        <label for="prenom">Prénom:</label><br>
-        <input type="prenom" id="prenom" name="prenom" value="Votre prénom"><br>
+        <label for="prenom">Prénom:</label ><br>
+        <input type="prenom" id="prenom" name="prenom" value="Votre prénom" class="prenom"><br >
+
+
         <label for="name">Nom:</label><br>
-        <input type="text" id="name" name="name" value="Votre nom de famille">
+        <input type="text" id="name" name="name" value="Votre nom de famille" class="nom">
+        
         <br>
         <label for="mail"></label>Mail:</label><br>
-        <input type="text" id="mail" name="mail" value="Votre email">
+        <input type="text" id="mail" name="mail" value="Votre email" class="email">
         <br><br>
 
         <label for="titlle-scrolling-menu">Vous avez découvert notre marque par :</label>
-        <select name="scrolling-menu" id="scrolling-menu">
-          <option value="Réseaux sociaux">Les réseaux sociaux</option>
+        <select name="scrolling-menu" id="scrolling-menu" class="scrolling-menu">
+          <option value="Réseaux sociaux">Les réseaux sociaux </option>
           <option value="publicité">La publicité internet</option>
           <option value="conseils">Sur conseils d'un proche</option>
         </select>
 
         <h2 class="h2">Vous êtes </h2>
-        <input type="checkbox" id="homme" name="homme" value="homme">
+        <input type="radio" id="homme" name="choix" value="homme" class="button">
         <label for="homme">un homme</label><br>
 
-        <input type="checkbox" id="femme" name="femme" value="femme">
+        <input type="radio" id="femme" name="choix" value="femme" class="button">
         <label for="femme">une femme</label><br>
 
       </div>
 
       <div class="space50"><label for="date">Date de l'évenement</label>
         <label for="date"></label><br>
-        <input type="date" id="date" name="date" value="Choisissez une date">
+        <input type="date" id="date" name="date" value="Choisissez une date" class="calendar">
         <br>
         <label for="message"></label> Votre message</label><br>
-        <input type="text" id="message" name="message" value="Votre message ici ..."><br>
+        <textarea id="message" name="message" class="message">Votre message ici...</textarea>
+        <br>
         
-
-
-    
-
+        <h2 class="h2">Je suis plus : </h2>
+        <input type="checkbox" id="sports wear" name="choix" value="sport wear" >
+        <label for="sports wear" class="choice">Sports Wear</label><br>
+  
+        <input type="checkbox" id="citadin" name="choix" value="citadin">
+        <label for="citadin">Look citadin</label><br>
+  
       </div>
+
+      
+      
+
 
 
       <input type="submit" value="ENVOYER MA DEMANDE" class="form-button">

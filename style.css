@@ -7,7 +7,7 @@ header {
 body {
   background-color: rgb(252, 209, 109, 01);
   margin: 0px;
-  padding: 0x;
+  padding: 0px;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
@@ -136,12 +136,12 @@ body {
 
 /*CONTACT */
 
+
 .contact-title {
   background-image: url("./img/resultats/mail-5-V1.webp");
-  background-position: center;
   background-size: cover;
   position: relative;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -182,9 +182,13 @@ body {
 
 .footer-link-1:hover {
   font-size: 20px;
-  color: rgb(148, 76, 76);
+  color: rgb(109, 57, 5);
   text-decoration: underline;
+
+
 }
+
+
 
 .main {
   display: flex;
@@ -196,16 +200,18 @@ body {
   flex-basis: 50%;
   padding: 20px;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 25px;
   padding: 55px;
+   color:rgb(109, 57, 5);
+   font-size:18px;
+   
+  
+ 
 }
 
-input#name:focus {
-  border: 2px solid rgb(0, 255, 13);
-}
 
 .form-button {
-  color: black;
+  color:rgb(109, 57, 5);
   background-color: orangered;
   padding: 10px;
   font-size: 16px;
@@ -220,7 +226,8 @@ input#name:focus {
 
 .form-button:hover {
   color: black;
-  background-color: rgb(214, 143, 12);
+  outline: 1px solid orangered;
+  background-color:  rgb(252, 209, 109, 01);
   padding: 0px;
   font-size: 16px;
   border-radius: 8px;
@@ -236,14 +243,88 @@ input#name:focus {
 
 .form-button:active {
   border: 5px solid orangered;
+
 }
 
 .h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: unset;
+  margin-top:10px;
+
 }
 
 
+.prenom{
+  width:100%;
+ padding:10px;
+ margin:5px;
+ border-radius:8px;
+ margin-bottom:15px;
+ 
+}
+
+.nom{
+  width:100%;
+ padding:10px;
+ margin:5px;
+ border-radius:8px;
+ margin-bottom:15px;
+}
+
+.email{
+  width:100%;
+ padding:10px;
+ margin:5px;
+ border-radius:8px;
+ margin-bottom:15px;
+}
+
+.scrolling-menu{
+    width:100%;
+   padding:10px;
+   margin:5px;
+   border-radius:8px;
+   margin-bottom:15px;
+   background-color: rgb(252, 209, 109, 01);
+   box-sizing: content-box;
+  
+  }
+  
+.calendar{
+  width:100%;
+  padding:10px;
+  margin:5px;
+  border-radius:8px;
+  margin-bottom:15px;
+}
+
+.container.message {
+  position:relative;
+}
+
+.message{
+  width:100%;
+  margin:8px;
+  border-radius:8px;
+  box-sizing: content-box;
+
+  height:210px;
+    vertical-align: top;
+    padding: 5px;
+  
+  }
 
 
+/* Style pour l'effet sur l'élément actif */
+input:focus {
+  outline: 1px solid orangered;
+  background-color:  rgb(252, 209, 109, 01);
+
+}
+
+textarea:focus {
+  outline: 1px solid orangered;
+  background-color:  rgb(252, 209, 109, 01);
+
+}
 
