@@ -298,9 +298,7 @@ body {
   margin-bottom:15px;
 }
 
-.container.message {
-  position:relative;
-}
+
 
 .message{
   width:100%;
@@ -326,5 +324,24 @@ textarea:focus {
   outline: 1px solid orangered;
   background-color:  rgb(252, 209, 109, 01);
 
+}
+
+
+/*Media Quierries */
+
+
+img {
+  width: 50%;
+  min-width: 400px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  
+  }
 }
 
