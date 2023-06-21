@@ -2,6 +2,8 @@ header {
   background-color: rgb(240, 169, 88);
   display: flex;
   justify-content: space-between;
+  margin:0px;
+  padding:0px;
 }
 
 body {
@@ -14,11 +16,14 @@ body {
 
 .logo {
   width: 200px;
+  height:200px;
 }
 
 .nav {
   align-self: flex-end;
   font-size: 100px;
+  margin:0px;
+  padding:0px;
 }
 
 .color-link {
@@ -198,7 +203,7 @@ body {
 
 .space50 {
   flex-basis: 50%;
-  padding: 20px;
+
   box-sizing: border-box;
   font-size: 25px;
   padding: 55px;
@@ -330,18 +335,35 @@ textarea:focus {
 /*Media Quierries */
 
 
-img {
-  width: 50%;
-  min-width: 400px;
-}
-
-
-
 @media only screen and (max-width: 600px) {
   .main {
     display: flex;
     flex-direction: column;
   
   }
+
+  .header{
+ 
+    flex-direction: row;
+    display: flex;
+   align-items: center;
+  padding: calc(50% / 2);
+  margin:calc(50%/2);
+
+  }
+
+
+  .nav{
+ 
+    flex-direction: row;
+    display: flex;
+   align-items: center;
+  padding: calc(50% / 2);
+  margin:calc(50%/2;)
+
+  }
+
+
+
 }
 
